@@ -978,6 +978,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18336d78ccf8537468a1a44a1d7eb23f, type: 3}
+--- !u!114 &686225743 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5442510924827095372, guid: 18336d78ccf8537468a1a44a1d7eb23f, type: 3}
+  m_PrefabInstance: {fileID: 686225742}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &743966729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3020,6 +3031,10 @@ PrefabInstance:
       propertyPath: m_RequestedTrackingOriginMode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3627411920188552674, guid: 00354a51f43123043b6218499cbe369c, type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 686225743}
     - target: {fileID: 3998888694633322178, guid: 00354a51f43123043b6218499cbe369c, type: 3}
       propertyPath: m_Name
       value: XR Origin (VR)
